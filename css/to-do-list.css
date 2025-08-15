@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.todo-list  {
+    margin:auto;
+    background-color:cornsilk;
+    width: 80%;
+    height: auto;
+    max-width: 6000px;
+    padding: 16px;
+}
+
+div {
+    background-color:bisque;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sub-item {
+    padding-top: 5px;
+}

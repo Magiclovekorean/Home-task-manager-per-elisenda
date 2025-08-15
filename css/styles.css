@@ -8,30 +8,55 @@ body {
     font-family: 'Inter', Arial;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #nav {
     background-color: burlywood;
     width: auto;
     height: 45px;
-    padding-left: 180px;
+    
+    margin-bottom: 10px;
 }
 
 nav li {
-    display: inline;
-}
-
-a {
-    text-decoration: none;
     display: inline-block;
-    margin: 6px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
-
 h1 {
-    text-align: center;
-}
+    color:chocolate;
+    margin-bottom: 5px;
+    font-size: 40px;
+} 
 
 p {
-    text-align: center;
+    font-size: 20px;
+} 
+
+a {
+    display: block;
+    text-decoration: none;
 }
 
+a:link {
+    color:chocolate
+}
+
+a:visited  {
+    color: coral;
+}
+
+a:hover {
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+
+a:active {
+    color: bisque;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
