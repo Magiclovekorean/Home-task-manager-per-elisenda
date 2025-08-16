@@ -12,6 +12,7 @@ li {
 
 .todo-list  {
     margin:auto;
+    margin-bottom: 20px;
     background-color:cornsilk;
     width: 80%;
     height: auto;
