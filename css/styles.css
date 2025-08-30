@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
     font-family: 'Inter', Arial;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    background-color: burlywood;
+    background-color: #dbac6e;
     width: 100%;
     height: 45px;
     margin-bottom: 10px;
@@ -27,14 +27,14 @@ nav {
 nav li {
     display: inline-block;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 10%;
 }
 
 h1 {
-    color:chocolate;
+    color: #b75e19; 
     margin-bottom: 5px;
     font-size: 40px;
-    margin-top: 50wpx;
+    margin-top: 50px;
 } 
 
 p {
@@ -48,21 +48,18 @@ a {
 }
 
 a:link {
-    color: chocolate;
+    color: #3a2f13; 
 }
 
 a:visited  {
-    color: coral;
+    color: #5c4321; 
 }
 
-a:hover {
-    color: blanchedalmond;
+a:hover, a:active {
+    color: #3a2f13;
     text-decoration: underline;
 }
 
-a:active {
-    color: bisque;
-}
 
 img {
     height: 20px;
@@ -71,9 +68,4 @@ img {
 
 footer {
     padding-bottom: 20px;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: #df993c;
 }

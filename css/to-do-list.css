@@ -18,16 +18,16 @@ li {
     height: auto;
     max-width: 6000px;
     padding: 16px;
+    border-radius: 40px;
 }
 
 .todo-list li {
     background-color:bisque;
     width: 80%;
-    height: 50px;
+    height: auto;
     margin: auto;
     margin-bottom: 10px;
     text-align: center;
     line-height: 50px;
+    border-radius: 10px;
 }
-
-
